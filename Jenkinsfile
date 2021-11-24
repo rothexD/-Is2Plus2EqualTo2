@@ -12,7 +12,7 @@ pipeline {
 		}
 		stage("git pull") {
 			steps {					
-				bat "git clone C:/Users/rothexD/Documents/GitHub/isAHelloWorld2 ."
+				bat "git clone https://github.com/rothexD/-Is2Plus2EqualTo2 ."
 			}
 		}
 		stage("build") {
