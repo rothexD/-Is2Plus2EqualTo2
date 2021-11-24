@@ -14,7 +14,7 @@ namespace UnitTestsGoHere
 
             placeHolder = Example.Is2Plus2Equal4Method();
 
-            placeHolder.Should().BeFalse();
+            placeHolder.Should().BeTrue();
         }
     }
 }
